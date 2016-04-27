@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &168796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 453758}
+  - 114: {fileID: 11460950}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &453758
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168796}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.613464355, y: 1.79052734, z: 8.98046875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11460950
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d075551da150b45885221eadae63d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entityList: {fileID: 0}
+  musicOn: 1
+  swings: []
+  ambientMusic: {fileID: 0}
+  combatMusic: {fileID: 0}
+  skeletonSounds: []
+  boneExplosion:
+  - {fileID: 0}
+  footstep:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  swordSwish:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  coinDrop:
+  - {fileID: 8259320, guid: ee6700495a5f3ed48908a52f6749fd0e, type: 2}
+  - {fileID: 8211262, guid: ee6700495a5f3ed48908a52f6749fd0e, type: 2}
+  - {fileID: 8232140, guid: ee6700495a5f3ed48908a52f6749fd0e, type: 2}
+  - {fileID: 8288258, guid: ee6700495a5f3ed48908a52f6749fd0e, type: 2}
+  - {fileID: 8215890, guid: ee6700495a5f3ed48908a52f6749fd0e, type: 2}
+  - {fileID: 8216148, guid: ee6700495a5f3ed48908a52f6749fd0e, type: 2}
+  coinPickup:
+  - {fileID: 8252072, guid: ee6700495a5f3ed48908a52f6749fd0e, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: footstep.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: coinDrop.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: coinPickup.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: boneExplosion.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: boneExplosion.Array.data[0]
+      value: 
+      objectReference: {fileID: 8294856, guid: 9dd96643188654e40930feb06bbaebd3, type: 2}
+    - target: {fileID: 0}
+      propertyPath: footstep.Array.data[0]
+      value: 
+      objectReference: {fileID: 8212478, guid: b9ef22c7397bc95498cfc6f633dc92ab, type: 2}
+    - target: {fileID: 0}
+      propertyPath: footstep.Array.data[1]
+      value: 
+      objectReference: {fileID: 8274674, guid: b9ef22c7397bc95498cfc6f633dc92ab, type: 2}
+    - target: {fileID: 0}
+      propertyPath: footstep.Array.data[2]
+      value: 
+      objectReference: {fileID: 8251930, guid: b9ef22c7397bc95498cfc6f633dc92ab, type: 2}
+    - target: {fileID: 0}
+      propertyPath: footstep.Array.data[3]
+      value: 
+      objectReference: {fileID: 8288450, guid: b9ef22c7397bc95498cfc6f633dc92ab, type: 2}
+    - target: {fileID: 0}
+      propertyPath: footstep.Array.data[4]
+      value: 
+      objectReference: {fileID: 8291546, guid: b9ef22c7397bc95498cfc6f633dc92ab, type: 2}
+    - target: {fileID: 0}
+      propertyPath: coinDrop.Array.data[0]
+      value: 
+      objectReference: {fileID: 8259320, guid: ee6700495a5f3ed48908a52f6749fd0e, type: 2}
+    - target: {fileID: 0}
+      propertyPath: coinDrop.Array.data[1]
+      value: 
+      objectReference: {fileID: 8211262, guid: ee6700495a5f3ed48908a52f6749fd0e, type: 2}
+    - target: {fileID: 0}
+      propertyPath: coinDrop.Array.data[2]
+      value: 
+      objectReference: {fileID: 8232140, guid: ee6700495a5f3ed48908a52f6749fd0e, type: 2}
+    - target: {fileID: 0}
+      propertyPath: coinDrop.Array.data[3]
+      value: 
+      objectReference: {fileID: 8288258, guid: ee6700495a5f3ed48908a52f6749fd0e, type: 2}
+    - target: {fileID: 0}
+      propertyPath: coinDrop.Array.data[4]
+      value: 
+      objectReference: {fileID: 8215890, guid: ee6700495a5f3ed48908a52f6749fd0e, type: 2}
+    - target: {fileID: 0}
+      propertyPath: coinDrop.Array.data[5]
+      value: 
+      objectReference: {fileID: 8216148, guid: ee6700495a5f3ed48908a52f6749fd0e, type: 2}
+    - target: {fileID: 0}
+      propertyPath: coinPickup.Array.data[0]
+      value: 
+      objectReference: {fileID: 8252072, guid: ee6700495a5f3ed48908a52f6749fd0e, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 168796}
+  m_IsPrefabParent: 1

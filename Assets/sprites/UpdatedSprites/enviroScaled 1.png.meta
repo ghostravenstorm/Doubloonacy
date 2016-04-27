@@ -1,0 +1,472 @@
+fileFormatVersion: 2
+guid: ca3ce49e7ac6c5943abd87024f406552
+timeCreated: 1461327480
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: enviroScaled_0
+    21300002: enviroScaled_1
+    21300004: enviroScaled_2
+    21300006: enviroScaled_3
+    21300008: enviroScaled_4
+    21300010: Crate
+    21300012: CannonBalls
+    21300014: enviroScaled_7
+    21300016: enviroScaled_8
+    21300018: enviroScaled_9
+    21300020: enviroScaled_10
+    21300022: enviroScaled_11
+    21300024: Cave_Rock_Wall
+    21300026: Cave_Rock_Wall_Small
+    21300028: Cave_Stalag_1
+    21300030: Cave_Stalag_2
+    21300032: enviroScaled_16
+    21300034: enviroScaled_17
+    21300036: enviroScaled_18
+    21300038: enviroScaled_19
+    21300040: enviroScaled_20
+    21300042: enviroScaled_21
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: enviroScaled_0
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 2191
+        width: 103
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.891876, y: 18.227417}
+        - {x: -26.891876, y: 7.227417}
+        - {x: -26.891876, y: -16.772583}
+        - {x: -25.891876, y: -17.772583}
+        - {x: 26.108124, y: -17.772583}
+        - {x: 28.108124, y: -7.772583}
+        - {x: 28.108124, y: 15.227417}
+        - {x: 21.108124, y: 18.227417}
+    - name: enviroScaled_1
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 2133
+        width: 502
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.101562, y: 79.46399}
+        - {x: -131.10156, y: 35.46399}
+        - {x: -131.10156, y: -14.536011}
+        - {x: -108.10156, y: -64.53601}
+        - {x: -94.10156, y: -77.53601}
+        - {x: 49.898438, y: -77.53601}
+        - {x: 81.89844, y: -76.53601}
+        - {x: 131.89844, y: -42.53601}
+        - {x: 131.89844, y: 6.4639893}
+        - {x: 55.898438, y: 79.46399}
+    - name: enviroScaled_2
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 2124
+        width: 351
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.598877, y: 71.267944}
+        - {x: -91.59888, y: 42.267944}
+        - {x: -91.59888, y: 27.267944}
+        - {x: -74.59888, y: 18.267944}
+        - {x: -69.59888, y: 1.2679443}
+        - {x: -51.598877, y: -4.7320557}
+        - {x: -19.598877, y: -57.732056}
+        - {x: -10.598877, y: -70.732056}
+        - {x: 42.401123, y: -70.732056}
+        - {x: 90.40112, y: -32.732056}
+        - {x: 90.40112, y: 71.267944}
+      - - {x: 89.40112, y: -1.7320557}
+        - {x: 91.40112, y: -4.7320557}
+        - {x: 93.40112, y: -3.7320557}
+        - {x: 93.40112, y: -0.73205566}
+        - {x: 91.40112, y: 0.26794434}
+      - - {x: -68.59888, y: 68.267944}
+        - {x: -69.59888, y: 65.267944}
+        - {x: -68.59888, y: 62.267944}
+        - {x: -57.598877, y: 62.267944}
+        - {x: -56.598877, y: 65.267944}
+        - {x: -56.598877, y: 68.267944}
+    - name: enviroScaled_3
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 2100
+        width: 301
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.0490723, y: -68.25488}
+        - {x: 9.049072, y: -68.25488}
+        - {x: 9.049072, y: -65.25488}
+        - {x: 6.0490723, y: -64.25488}
+        - {x: 4.0490723, y: -66.25488}
+      - - {x: 79.04907, y: -10.254883}
+        - {x: 79.04907, y: 33.745117}
+        - {x: 33.049072, y: 69.74512}
+        - {x: -34.950928, y: 69.74512}
+        - {x: -41.950928, y: 59.745117}
+        - {x: -40.950928, y: 50.745117}
+        - {x: -78.95093, y: 21.745117}
+        - {x: -78.95093, y: -4.254883}
+        - {x: -41.950928, y: -61.254883}
+        - {x: -34.950928, y: -64.25488}
+        - {x: 57.049072, y: -64.25488}
+        - {x: 72.04907, y: -42.254883}
+        - {x: 60.049072, y: -42.254883}
+    - name: enviroScaled_4
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 2174
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Crate
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 2049
+        width: 103
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.891876, y: 26.134155}
+        - {x: -26.891876, y: 19.134155}
+        - {x: -26.891876, y: -19.865845}
+        - {x: -12.891876, y: -25.865845}
+        - {x: 6.108124, y: -25.865845}
+        - {x: 28.108124, y: -13.865845}
+        - {x: 28.108124, y: 26.134155}
+    - name: CannonBalls
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1854
+        width: 102
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.525635, y: 21.886475}
+        - {x: -26.525635, y: 4.8864746}
+        - {x: -26.525635, y: -15.113525}
+        - {x: -25.525635, y: -18.113525}
+        - {x: -8.525635, y: -21.113525}
+        - {x: 12.474365, y: -21.113525}
+        - {x: 27.474365, y: -13.113525}
+        - {x: 27.474365, y: 4.8864746}
+        - {x: 20.474365, y: 21.886475}
+    - name: enviroScaled_7
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1858
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enviroScaled_8
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1857
+        width: 89
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.185669, y: 18.951782}
+        - {x: -23.185669, y: -17.048218}
+        - {x: 23.814331, y: -17.048218}
+        - {x: 23.814331, y: 18.951782}
+    - name: enviroScaled_9
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1854
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.798706, y: 13.386475}
+        - {x: -1.201294, y: 19.386475}
+        - {x: -8.201294, y: 27.386475}
+        - {x: -13.201294, y: 27.386475}
+        - {x: -24.201294, y: -12.613525}
+        - {x: -22.201294, y: -12.613525}
+        - {x: -22.201294, y: -15.613525}
+        - {x: -22.201294, y: -14.613525}
+        - {x: -25.201294, y: -13.613525}
+        - {x: -26.201294, y: -13.613525}
+        - {x: -26.201294, y: -19.613525}
+        - {x: -22.201294, y: -26.613525}
+        - {x: 23.798706, y: -26.613525}
+        - {x: 27.798706, y: -22.613525}
+        - {x: 27.798706, y: 27.386475}
+        - {x: 17.798706, y: 27.386475}
+        - {x: 6.798706, y: 20.386475}
+    - name: enviroScaled_10
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 1856
+        width: 71
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enviroScaled_11
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1863
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Cave_Rock_Wall
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1827
+        width: 103
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.765015, y: 56.29828}
+        - {x: -26.765015, y: 47.29828}
+        - {x: -26.765015, y: -46.70172}
+        - {x: -9.765015, y: -55.70172}
+        - {x: 28.234985, y: -55.70172}
+        - {x: 28.234985, y: 56.29828}
+    - name: Cave_Rock_Wall_Small
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 1825
+        width: 102
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.560791, y: 37.2547}
+        - {x: -26.560791, y: 15.2547}
+        - {x: -26.560791, y: -36.7453}
+        - {x: 27.439209, y: -36.7453}
+        - {x: 27.439209, y: 37.2547}
+    - name: Cave_Stalag_1
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 1827
+        width: 19
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Cave_Stalag_2
+      rect:
+        serializedVersion: 2
+        x: 2423
+        y: 1827
+        width: 16
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enviroScaled_16
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1308
+        width: 504
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -131.47415, y: 131.99268}
+        - {x: -131.47415, y: -131.00732}
+        - {x: 132.52585, y: -131.00732}
+        - {x: 132.52585, y: 131.99268}
+    - name: enviroScaled_17
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1308
+        width: 504
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -131.49326, y: 131.99268}
+        - {x: -131.49326, y: -131.00732}
+        - {x: 132.50674, y: -131.00732}
+        - {x: 132.50674, y: 131.99268}
+    - name: enviroScaled_18
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1308
+        width: 504
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -131.51239, y: 131.99268}
+        - {x: -131.51239, y: -131.00732}
+        - {x: 132.48761, y: -131.00732}
+        - {x: 132.48761, y: 131.99268}
+    - name: enviroScaled_19
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 758
+        width: 504
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -131.47415, y: 132.01184}
+        - {x: -131.47415, y: -130.98816}
+        - {x: 132.52585, y: -130.98816}
+        - {x: 132.52585, y: 132.01184}
+    - name: enviroScaled_20
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 758
+        width: 504
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.493256, y: 103.01184}
+        - {x: -71.493256, y: 100.01184}
+        - {x: -93.493256, y: 101.01184}
+        - {x: -101.493256, y: 103.01184}
+        - {x: -128.49326, y: 103.01184}
+        - {x: -131.49326, y: 101.01184}
+        - {x: -131.49326, y: -101.98816}
+        - {x: 132.50674, y: -101.98816}
+        - {x: 132.50674, y: 103.01184}
+    - name: enviroScaled_21
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 760
+        width: 504
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 124.48761, y: 108.55539}
+        - {x: 49.48761, y: 108.55539}
+        - {x: 37.48761, y: 106.55539}
+        - {x: 35.48761, y: 108.55539}
+        - {x: 23.48761, y: 108.55539}
+        - {x: 13.48761, y: 106.55539}
+        - {x: -0.51239014, y: 105.55539}
+        - {x: -10.51239, y: 106.55539}
+        - {x: -30.51239, y: 107.55539}
+        - {x: -59.51239, y: 106.55539}
+        - {x: -82.51239, y: 107.55539}
+        - {x: -98.51239, y: 107.55539}
+        - {x: -109.51239, y: 106.55539}
+        - {x: -127.51239, y: 108.55539}
+        - {x: -129.51239, y: 108.55539}
+        - {x: -131.51239, y: 105.55539}
+        - {x: -131.51239, y: -107.44461}
+        - {x: 132.48761, y: -107.44461}
+        - {x: 132.48761, y: 104.55539}
+        - {x: 131.48761, y: 105.55539}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

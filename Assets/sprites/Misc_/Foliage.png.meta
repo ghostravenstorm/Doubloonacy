@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: d29d05b12b70cd84d8b7d7d7084fbcb6
+timeCreated: 1460084937
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Foliage_0
+    21300002: Foliage_1
+    21300004: Foliage_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Foliage_0
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1458
+        width: 1164
+        height: 1164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -331.21112, y: 331.94}
+        - {x: -331.21112, y: -331.06}
+        - {x: 331.78888, y: -331.06}
+        - {x: 331.78888, y: 331.94}
+    - name: Foliage_1
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 1071
+        width: 876
+        height: 598
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 199.81116, y: -151.21997}
+        - {x: 203.81116, y: -147.21997}
+        - {x: 244.81116, y: -79.21997}
+        - {x: 249.81116, y: -63.21997}
+        - {x: 249.81116, y: -51.21997}
+        - {x: 193.81116, y: -58.21997}
+        - {x: 174.81116, y: -43.21997}
+        - {x: 160.81116, y: -0.2199707}
+        - {x: 155.81116, y: 58.78003}
+        - {x: 154.81116, y: 59.78003}
+        - {x: 154.81116, y: 63.78003}
+        - {x: 152.81116, y: 65.78003}
+        - {x: 151.81116, y: 67.78003}
+        - {x: 157.81116, y: 59.78003}
+        - {x: 162.81116, y: 40.78003}
+        - {x: 171.81116, y: 17.78003}
+        - {x: 181.81116, y: 20.78003}
+        - {x: 173.81116, y: 54.78003}
+        - {x: 163.81116, y: 70.78003}
+        - {x: 142.81116, y: 92.78003}
+        - {x: 115.81116, y: 97.78003}
+        - {x: 41.811157, y: 165.78003}
+        - {x: 14.811157, y: 170.78003}
+        - {x: -3.1888428, y: 170.78003}
+        - {x: -47.188843, y: 115.78003}
+        - {x: -97.18884, y: 102.78003}
+        - {x: -184.18884, y: 76.78003}
+        - {x: -212.18884, y: 78.78003}
+        - {x: -249.18884, y: 68.78003}
+        - {x: -249.18884, y: 54.78003}
+        - {x: -225.18884, y: 24.78003}
+        - {x: -208.18884, y: -3.2199707}
+        - {x: -186.18884, y: -31.21997}
+        - {x: -188.18884, y: -63.21997}
+        - {x: -200.18884, y: -118.21997}
+        - {x: -191.18884, y: -167.21997}
+        - {x: -186.18884, y: -170.21997}
+        - {x: -120.18884, y: -170.21997}
+        - {x: -107.18884, y: -152.21997}
+        - {x: -100.18884, y: -169.21997}
+        - {x: 21.811157, y: -162.21997}
+    - name: Foliage_2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 196
+        width: 1164
+        height: 1164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -331.21112, y: 332.00223}
+        - {x: -331.21112, y: -330.99777}
+        - {x: 331.78888, y: -330.99777}
+        - {x: 331.78888, y: 332.00223}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
