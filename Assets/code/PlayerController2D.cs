@@ -41,6 +41,7 @@ public class PlayerController2D : MonoBehaviour{
 			if(Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Return)){
 				// Primary attack
 				player.primeAttack();
+               
 			}
 
 			//Note: GetAxis causes lag
