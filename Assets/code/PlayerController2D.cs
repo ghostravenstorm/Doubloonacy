@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 public class PlayerController2D : MonoBehaviour{
-
+    private Animator animator;
 	// TOP DOWN 2D CONTROLLER
 
 	// Assigned in inspector
@@ -23,6 +23,7 @@ public class PlayerController2D : MonoBehaviour{
 
 
 	public void Start(){
+        animator = this.GetComponent<Animator>();
 		controllerIsActive = true;
 
 		moveSpeed = moveSpeed * GameManager.MOVE_SCALE;
@@ -51,24 +52,28 @@ public class PlayerController2D : MonoBehaviour{
 				this.transform.position += new Vector3(0, moveSpeedDiag * Time.deltaTime, 0);
 				this.transform.position += new Vector3(moveSpeedDiag * Time.deltaTime, 0, 0);
 				player.hitbox.gameObject.transform.rotation = new Quaternion(0f, 0f, 0.4f, -0.9f);
+                animator.SetBool("right", true);
 			}
 			else if(Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.A)){
 				//Up-Left
 				this.transform.position += new Vector3(0, moveSpeedDiag * Time.deltaTime, 0);
 				this.transform.position -= new Vector3(moveSpeedDiag * Time.deltaTime, 0, 0);
 				player.hitbox.gameObject.transform.rotation = new Quaternion(0f, 0f, 0.4f, 0.9f);
+                animator.SetBool("left", true);
 			}
 			else if(Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.D)){
 				//Down-Right
 				this.transform.position -= new Vector3(0, moveSpeedDiag * Time.deltaTime, 0);
 				this.transform.position += new Vector3(moveSpeedDiag * Time.deltaTime, 0, 0);
 				player.hitbox.gameObject.transform.rotation = new Quaternion(0f, 0f, 0.9f, -0.4f);
+                animator.SetBool("right", true);
 			}
 			else if(Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.A)){
 				//Down-Left
 				this.transform.position -= new Vector3(0, moveSpeedDiag * Time.deltaTime, 0);
 				this.transform.position -= new Vector3(moveSpeedDiag * Time.deltaTime, 0, 0);
 				player.hitbox.gameObject.transform.rotation = new Quaternion(0f, 0f, 0.9f, 0.4f);
+                animator.SetBool("left", true);
 			}
 
 			//2D Movement non-diaganol
@@ -76,23 +81,34 @@ public class PlayerController2D : MonoBehaviour{
 				//Right
 				this.transform.position += new Vector3(moveSpeed * Time.deltaTime, 0, 0);
 				player.hitbox.gameObject.transform.rotation = new Quaternion(0f, 0f, -7.0f, 7.0f);
-			}
+                animator.SetBool("right", true); //Starts the walkRight animation
+
+            }
 			else if(Input.GetKey(KeyCode.A)){
 				//Left
 				this.transform.position -= new Vector3(moveSpeed * Time.deltaTime, 0, 0);
 				player.hitbox.gameObject.transform.rotation = new Quaternion(0f, 0f, 7.0f, 7.0f);
-			}
+                animator.SetBool("left", true); //Starts the walkLeft animation
+            }
 			else if(Input.GetKey(KeyCode.W)){
 				//Up
 				this.transform.position += new Vector3(0, moveSpeed * Time.deltaTime, 0);
 				player.hitbox.gameObject.transform.rotation = new Quaternion(0f, 0f, 0f, 1.0f);
-			}
+                animator.SetBool("up", true); //Starts the walkBack animation
+            }
 			else if(Input.GetKey(KeyCode.S)){
 				//Down
 				this.transform.position -= new Vector3(0, moveSpeed * Time.deltaTime, 0);
 				player.hitbox.gameObject.transform.rotation = new Quaternion(0f, 0f, 1.0f, 0f);
-			}
-
+                animator.SetBool("down", true); //Starts the walkForward animation
+            }
+            else
+            {
+                animator.SetBool("up", false);
+                animator.SetBool("down", false);
+                animator.SetBool("left", false);
+                animator.SetBool("right", false);
+            }
 		}
 	}
 }

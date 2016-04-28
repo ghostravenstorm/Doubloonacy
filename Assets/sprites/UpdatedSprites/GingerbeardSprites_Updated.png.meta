@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: 20f13643f87ef984bad452ab540fbd05
+timeCreated: 1461791285
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GingerbeardSprites_Updated_0
+    21300002: GingerbeardSprites_Updated_1
+    21300004: GingerbeardSprites_Updated_2
+    21300006: GingerbeardSprites_Updated_3
+    21300008: GingerbeardSprites_Updated_4
+    21300010: GingerbeardSprites_Updated_5
+    21300012: GingerbeardSprites_Updated_6
+    21300014: GingerbeardSprites_Updated_7
+    21300016: GingerbeardSprites_Updated_8
+    21300018: GingerbeardSprites_Updated_9
+    21300020: GingerbeardSprites_Updated_10
+    21300022: GingerbeardSprites_Updated_11
+    21300024: GingerbeardSprites_Updated_12
+    21300026: GingerbeardSprites_Updated_13
+    21300028: GingerbeardSprites_Updated_14
+    21300030: GingerbeardSprites_Updated_15
+    21300032: GingerbeardSprites_Updated_16
+    21300034: GingerbeardSprites_Updated_17
+    21300036: GingerbeardSprites_Updated_18
+    21300038: GingerbeardSprites_Updated_19
+    21300040: GingerbeardSprites_Updated_20
+    21300042: GingerbeardSprites_Updated_21
+    21300044: GingerbeardSprites_Updated_22
+    21300046: GingerbeardSprites_Updated_23
+    21300048: GingerbeardSprites_Updated_24
+    21300050: GingerbeardSprites_Updated_25
+    21300052: GingerbeardSprites_Updated_26
+    21300054: GingerbeardSprites_Updated_27
+    21300056: GingerbeardSprites_Updated_28
+    21300058: GingerbeardSprites_Updated_29
+    21300060: GingerbeardSprites_Updated_30
+    21300062: GingerbeardSprites_Updated_31
+    21300064: GingerbeardSprites_Updated_32
+    21300066: GingerbeardSprites_Updated_33
+    21300068: GingerbeardSprites_Updated_34
+    21300070: GingerbeardSprites_Updated_35
+    21300072: GingerbeardSprites_Updated_36
+    21300074: GingerbeardSprites_Updated_37
+    21300076: GingerbeardSprites_Updated_38
+    21300078: GingerbeardSprites_Updated_39
+    21300080: GingerbeardSprites_Updated_40
+    21300082: GingerbeardSprites_Updated_41
+    21300084: GingerbeardSprites_Updated_42
+    21300086: GingerbeardSprites_Updated_43
+    21300088: GingerbeardSprites_Updated_44
+    21300090: GingerbeardSprites_Updated_45
+    21300092: GingerbeardSprites_Updated_46
+    21300094: GingerbeardSprites_Updated_47
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GingerbeardSprites_Updated_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 885
+        width: 97
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_1
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 885
+        width: 70
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 955
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_3
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 885
+        width: 98
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_4
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 885
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_5
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 885
+        width: 68
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_6
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 885
+        width: 98
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_7
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 885
+        width: 81
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_8
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 885
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_9
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 885
+        width: 111
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_10
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 885
+        width: 89
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_11
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 885
+        width: 112
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_12
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 885
+        width: 149
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_13
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 885
+        width: 150
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_14
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 885
+        width: 150
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_15
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 885
+        width: 149
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 641
+        width: 94
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 641
+        width: 93
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_18
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 641
+        width: 93
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_19
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 641
+        width: 94
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_20
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 641
+        width: 63
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_21
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 671
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_22
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 672
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_23
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 641
+        width: 64
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_24
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 641
+        width: 96
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_25
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 641
+        width: 96
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_26
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 630
+        width: 132
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_27
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 616
+        width: 98
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_28
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 621
+        width: 93
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_29
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 628
+        width: 86
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_30
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 628
+        width: 131
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_31
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 628
+        width: 131
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_32
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 628
+        width: 87
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_33
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 652
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_34
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 378
+        width: 124
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_35
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 378
+        width: 124
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_36
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 378
+        width: 125
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_37
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 378
+        width: 124
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_38
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 378
+        width: 145
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_39
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 378
+        width: 145
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_40
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 378
+        width: 108
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_41
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 106
+        width: 109
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_42
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 106
+        width: 145
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_43
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 106
+        width: 146
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_44
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 106
+        width: 124
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_45
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 106
+        width: 124
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_46
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 106
+        width: 123
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GingerbeardSprites_Updated_47
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 106
+        width: 124
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
