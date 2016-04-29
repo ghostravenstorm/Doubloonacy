@@ -15,7 +15,6 @@ GameObject:
   - 114: {fileID: 11413516}
   - 114: {fileID: 11412546}
   - 114: {fileID: 11405784}
-  - 95: {fileID: 9500220}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -107,23 +106,6 @@ BoxCollider2D:
   m_Offset: {x: .0812745094, y: -.191654205}
   serializedVersion: 2
   m_Size: {x: 3.75762558, y: 6.48262691}
---- !u!95 &9500220
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 140414}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6f9988df018ea3a429e70c77ad0a82c6, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11405784
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -179,7 +161,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 11413516}
   moveSpeed: 4
-  animator: {fileID: 9500220}
   controllerIsActive: 1
 --- !u!114 &11478126
 MonoBehaviour:
