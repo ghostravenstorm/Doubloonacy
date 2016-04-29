@@ -10,7 +10,6 @@ GameObject:
   - 4: {fileID: 497028}
   - 212: {fileID: 21287400}
   - 61: {fileID: 6193938}
-  - 114: {fileID: 11446538}
   m_Layer: 0
   m_Name: Chest
   m_TagString: destructible
@@ -43,30 +42,6 @@ BoxCollider2D:
   m_Offset: {x: .0907495022, y: -.0165557861}
   serializedVersion: 2
   m_Size: {x: 2, y: 2}
---- !u!114 &11446538
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 118594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d55e066f4e697e489b97d8db2d999d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loot:
-  - {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
-  - {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
-  - {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
-  - {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
-  - {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
-  - {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
-  - {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
-  - {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
-  - {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
-  - {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
-  dropChance: 610000005d0000005a0000005600000052000000400000002f00000027000000210000001a000000
-  spawnRadius: 1
 --- !u!212 &21287400
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -101,14 +76,6 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 0}
-      propertyPath: loot.Array.size
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: dropChance.Array.size
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
       propertyPath: m_LocalScale.x
       value: 1.20000005
       objectReference: {fileID: 0}
@@ -119,90 +86,6 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_TagString
       value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: loot.Array.data[0]
-      value: 
-      objectReference: {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
-    - target: {fileID: 0}
-      propertyPath: loot.Array.data[1]
-      value: 
-      objectReference: {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
-    - target: {fileID: 0}
-      propertyPath: loot.Array.data[2]
-      value: 
-      objectReference: {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
-    - target: {fileID: 0}
-      propertyPath: loot.Array.data[3]
-      value: 
-      objectReference: {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
-    - target: {fileID: 0}
-      propertyPath: loot.Array.data[4]
-      value: 
-      objectReference: {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
-    - target: {fileID: 0}
-      propertyPath: loot.Array.data[5]
-      value: 
-      objectReference: {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
-    - target: {fileID: 0}
-      propertyPath: loot.Array.data[6]
-      value: 
-      objectReference: {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
-    - target: {fileID: 0}
-      propertyPath: loot.Array.data[7]
-      value: 
-      objectReference: {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
-    - target: {fileID: 0}
-      propertyPath: loot.Array.data[8]
-      value: 
-      objectReference: {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
-    - target: {fileID: 0}
-      propertyPath: loot.Array.data[9]
-      value: 
-      objectReference: {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
-    - target: {fileID: 0}
-      propertyPath: dropChance.Array.data[0]
-      value: 97
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: dropChance.Array.data[1]
-      value: 93
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: dropChance.Array.data[2]
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: dropChance.Array.data[3]
-      value: 86
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: dropChance.Array.data[4]
-      value: 82
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: dropChance.Array.data[5]
-      value: 64
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: dropChance.Array.data[6]
-      value: 47
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: dropChance.Array.data[7]
-      value: 39
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: dropChance.Array.data[8]
-      value: 33
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: dropChance.Array.data[9]
-      value: 26
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: spawnRadius
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
