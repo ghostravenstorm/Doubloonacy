@@ -15,6 +15,7 @@ GameObject:
   - 114: {fileID: 11477398}
   - 50: {fileID: 5091678}
   - 95: {fileID: 9569666}
+  - 114: {fileID: 11460004}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: enemy
@@ -110,6 +111,18 @@ MonoBehaviour:
   damageBase: 1
   isInvulnerable: 0
   movementBase: 2.5
+--- !u!114 &11460004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 137048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc05411dbff1c8b4db5dfd0d9d6d5e16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
 --- !u!114 &11477398
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -122,13 +135,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loot:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  dropChance: 6400000000000000000000000000000000000000
-  spawnRadius: 0
+  - {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
+  - {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
+  - {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
+  - {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
+  - {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
+  dropChance: 5f0000004300000021000000140000000a000000
+  spawnRadius: 1
 --- !u!212 &21256768
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -208,7 +221,47 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: dropChance.Array.data[0]
-      value: 100
+      value: 95
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: loot.Array.data[0]
+      value: 
+      objectReference: {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
+    - target: {fileID: 0}
+      propertyPath: loot.Array.data[1]
+      value: 
+      objectReference: {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
+    - target: {fileID: 0}
+      propertyPath: loot.Array.data[2]
+      value: 
+      objectReference: {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
+    - target: {fileID: 0}
+      propertyPath: loot.Array.data[3]
+      value: 
+      objectReference: {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
+    - target: {fileID: 0}
+      propertyPath: loot.Array.data[4]
+      value: 
+      objectReference: {fileID: 160056, guid: 56086958a9a075c4f8ab5ec748b3fa95, type: 2}
+    - target: {fileID: 0}
+      propertyPath: dropChance.Array.data[1]
+      value: 67
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: dropChance.Array.data[2]
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: dropChance.Array.data[3]
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: dropChance.Array.data[4]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: spawnRadius
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
