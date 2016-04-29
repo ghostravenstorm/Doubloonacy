@@ -57,7 +57,6 @@ public class SkeletonPirateBehavior : MonoBehaviour{
 		//Debug.Log(currentHealth);
 		//Debug.Log(this.name + " move towards: " + this.movetowards);
 
-		Debug.Log(this.rigidbody2d.velocity);
 
 	}
 
