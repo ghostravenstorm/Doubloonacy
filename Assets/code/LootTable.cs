@@ -33,10 +33,19 @@ public class LootTable : MonoBehaviour{
 		// Roll dice for each item in `loot`. 
 		// `dropChance` needs to be equal to or greater than `loot` in size to avoid index out of range error.
 		loot.ForEach(delegate(GameObject obj){
-			if(rollDice() <= dropChance[index]){
-				GameObject.Instantiate(obj, randomLocation(parent), parent.transform.rotation);
+
+			if(obj != null){
+
+				if(rollDice() <= dropChance[index]){
+					GameObject.Instantiate(obj, randomLocation(parent), parent.transform.rotation);
+				}
 			}
+			else{
+				Debug.Log(this.name + " Loot Table: Item at element " + index + " is null.");
+			}
+
 			index++;
+
 		});
 	}
 
