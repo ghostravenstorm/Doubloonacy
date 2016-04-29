@@ -4,13 +4,13 @@ using System.Collections.Generic;
 
 public class SoundManager : MonoBehaviour{
 
-	[SerializeField]
-	private GameObject entityList;
+	//[SerializeField]
+	//private GameObject entityList;
 
 	[SerializeField]
 	private bool musicOn;
 
-	// Drag Game Objects with Audio Source components onto these in the inspector
+	/// Drag Game Objects with Audio Source components onto these in the inspector
 
 	[SerializeField]
 	private AudioSource ambientMusic;
@@ -84,6 +84,7 @@ public class SoundManager : MonoBehaviour{
 	}
 
 	// TODO: Calculate if player is near enemy to enable combat music
+	/*
 	private GameObject getNearestEntityToPlayer(){
 
 		int children = entityList.transform.childCount;
@@ -107,6 +108,7 @@ public class SoundManager : MonoBehaviour{
 
 		return nearestChild;
 	}
+	*/
 
 	// Return a random sound bite.
 	public AudioSource getSkeletonSound(){
