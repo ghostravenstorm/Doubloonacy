@@ -3,13 +3,32 @@ using System.Collections;
 
 public class SkeletonAnimation : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+	private Rigidbody2D rigidbody2d;
+
+	// *** TODO: refernce animator component
 	
+	private void Start(){
+		if(this.GetComponent<Rigidbody2D>() != null)
+			rigidbody2d = this.GetComponent<Rigidbody2D>();
+		else
+			Debug.LogError(this.name + " is missing reference to RigidBody2D.");
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	private void Update(){
+		if(rigidbody2d.velocity.x > 0){
+			// *** TODO: Animation moving right.
+		}
+		else if(rigidbody2d.velocity.x < 0){
+			// *** TODO: Animation moving left.
+		}
+		else if(rigidbody2d.velocity.y > 0){
+			// *** TODO: Animation moving up.
+		}
+		else if(rigidbody2d.velocity.y < 0){
+			// *** TODO: Animation moving down.
+		}
+		else{
+			// *** TODO: Animaiton standing still.
+		}
 	}
 }
